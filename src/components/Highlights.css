@@ -1,0 +1,16 @@
+.highlight__wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 550px) {
+    .highlight__wrapper{
+        flex-direction: column;  
+    }
+
+    .highlight{
+        margin: 16px 0;
+    }
+}
